@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.navbar-nav .nav-item a{
+    color: #FFF;
+}
+
+.navbar {
+    position: relative;
+    color: #FFF;
+    background-color: transparent !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+    font-family: 'Dancing Script';
+    font-size: 1.4em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo {
+    position: relative;
+    left: 50%;
+    margin-left: -95px !important;  /* 50% of your logo width */
+    display: block;
+    width: 190px;
+}
+
+.navbar .navbar-toggler {
+   color: black;
+} 
+
+@media only screen and (max-width: 767px) {
+    .navbar ul.navbar-nav li.nav-item a.nav-link {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+    
+.navbar {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.bigpic { 
+    /* Pozycjonowanie pod navbar */
+    
+    /* The image used */
+    background-image: url("../img/zdjecie-nav.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .bigpic {
+    height: 65%;
+    min-height: 80px;
+    }
+    
+    .logo {
+        width: 130px;
+        margin-left: -65px !important;
+    }
+    
+    .nav-link {
+        font-size: 1.2em !important;
+    }
+}
+
+
+.stories-h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-size: 1.6em;
+    color: black !important;
+}
+
+.photos img{
+    width:100%;
+    height: 230px;
+}
+
+.bottom-contact{
+    color: black !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.contact-p {
+    color: black !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 767px) {
+    .border-right {
+        border: none !important;
+    }
+    .border-left {
+        border: none !important;
+    }
+}
