@@ -201,8 +201,30 @@ body {
 
 /* Początek - Zdjęcia index */
 
-.image-index-1:hover img {
-    opacity: 0.8;
+.image {
+    position: relative;
+    -webkit-filter: brightness(100%);
+	-moz-filter: brightness(100%);
+	-o-filter: brightness(100%);
+	-ms-filter: brightness(100%);
+	filter: brightness(100%);
+    color: rgba(0, 0, 0, 0.0)
+}
+
+.image:hover{
+    -webkit-filter: brightness(60%);
+	-moz-filter: brightness(60%);
+	-o-filter: brightness(60%);
+	-ms-filter: brightness(60%);
+	filter: brightness(60%);
+    color: white;
+}
+
+.text-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Koniec - Zdjęcia index */
