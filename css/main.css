@@ -79,7 +79,7 @@ body {
     }
     
     .nav-link {
-        font-size: 1.2em !important;
+        font-size: 1.3em !important;
     }
 }
 
@@ -95,7 +95,7 @@ body {
     }
     
     .nav-link {
-        font-size: 1.0em !important;
+        font-size: 1.1em !important;
     }
 }
 
@@ -218,7 +218,9 @@ body {
 	-o-filter: brightness(100%);
 	-ms-filter: brightness(100%);
 	filter: brightness(100%);
-    color: rgba(0, 0, 0, 0.0)
+    color: rgba(0, 0, 0, 0.0);
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .image:hover{
