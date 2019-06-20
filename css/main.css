@@ -9,6 +9,7 @@ body {
     color: white;
 }
 
+/* navbar and logo */
 .navbar-nav .nav-item a{
     color: #FFF;
 }
@@ -23,7 +24,7 @@ body {
     color: whitesmoke;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-style: italic;
     margin-left: 15px;
     margin-right: 15px;
@@ -114,6 +115,13 @@ body {
     }
 }
 
+/* navbar black */
+.nav-black {
+    color: black !important;
+}
+
+
+/* stories */
 
 .stories-h2 {
     margin-top: 70px;
@@ -128,6 +136,8 @@ body {
     width:100%;
     height: 230px;
 }
+
+/* footer */
 
 .bottom-contact{
     color: black !important;
@@ -228,3 +238,19 @@ body {
 }
 
 /* Koniec - Zdjęcia index */
+
+/* O mnie */
+
+#h2-about {
+    color: black;
+    padding: 10px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.bg-grey {
+    background-color: #eee;
+}
+
